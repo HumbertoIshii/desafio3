@@ -22,7 +22,7 @@
 
 <body>
     <!--NavBar-->
-    <nav class="navbar bg-black navbar-expand-lg sticky-top">
+    <nav class="navbar bg-black navbar-dark navbar-expand-lg sticky-top">
         <div class="container">
             <a class="navbar-brand" style="font-family: 'Tangerine', cursive; font-size: 30px;" href="/">
                 <img src="/static/images/logoWhite.png" class="align-top" width="45" height="45" alt="">
@@ -39,13 +39,12 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Sistemas</a>
                         <ul class="dropdown-menu bg-black">
-                        <li><a class="dropdown-item" href="#">Dungeons and Dragons</a></li>
-                        <li><a class="dropdown-item" href="#">Ordem Paranormal</a></li>
-                        <li><a class="dropdown-item" href="#">Call of Cthulhu</a></li>
+                        <li><a class="dropdown-item" href="/dnd">Dungeons and Dragons</a></li>
+                        <li><a class="dropdown-item" href="/ordem">Ordem Paranormal</a></li>
+                        <li><a class="dropdown-item" href="/cthulhu">Call of Cthulhu</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="/loja">Loja</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Botão 3</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/loja">Starting Kits</a></li>
                 </ul>
             </div>
         </div>
@@ -55,38 +54,28 @@
     <div class="content">
     {% block content %}
     {% endblock %}
+    </div>
 
     <!--Footer-->
     <footer class="bg-body-tertiary text-center text-lg-start bg bg-gray">
-        <!-- Grid container -->
         <div class="container p-4">
-          <!--Grid row-->
           <div class="row">
-            <!--Grid column-->
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Footer text</h5>
+              <h5 class="text-uppercase">The Unlucky Dice</h5>
       
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-                voluptatem veniam, est atque cumque eum delectus sint!
+                Deixe-se inspirar por relatos de aventuras épicas e encontre o suporte que precisa para começar sua própria jornada como Mestre do Jogo ou aventureiro. Seja bem-vindo ao seu novo lar virtual, onde as portas dos reinos da imaginação estão sempre abertas, aguardando por você para desbravá-los.
               </p>
             </div>
-            <!--Grid column-->
       
-            <!--Grid column-->
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Footer text</h5>
+              <h5 class="text-uppercase">TTRPG</h5>
       
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-                voluptatem veniam, est atque cumque eum delectus sint!
+                Explore o universo emocionante dos Role-Playing Games de Mesa (TTRPGs) com facilidade! Escolha um jogo que lhe interesse, convide amigos para se juntarem a você e mergulhe na aventura. Familiarize-se com as regras básicas, crie seu próprio personagem e deixe-se envolver pela narrativa cativante. O mais importante é se divertir enquanto explora mundos fantásticos e cria memórias inesquecíveis com seus amigos. Boa sorte em sua jornada pelos TTRPGs!
               </p>
             </div>
-            <!--Grid column-->
           </div>
-          <!--Grid row-->
         </div>
         <div class="py-1 bg-black text-center text-white">
             <div class="container"><small>Copyright &copy; The Unlucky Dice 2024</small></div>

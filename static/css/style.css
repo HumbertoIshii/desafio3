@@ -31,6 +31,21 @@
     color: whitesmoke;
 }
 
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
 .carousel img{
     opacity: 0.9;
+}
+
+.carousel-inner{
+    height: 550px;
+}
+
+@media (max-width: 991.98px){
+    .carousel-inner{
+        height: 100%;
+    }
 }
