@@ -5,6 +5,7 @@
 
 <!--Conteúdo-->
 {% block content %}
+
 <!--Carousel-->
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
     <!-- Indicadores -->
@@ -57,13 +58,12 @@
 </div>
   
 
-
 <!--Introdução-->
 <div class="py-5 container">
     <h2 class="py-3 text-center">Role-Playing Game (RPG)</h2>
-    <div>
-        <div class="col-md-8 offset-md-2"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam placeat quae, nesciunt maiores aliquam, dolore iure assumenda ullam nisi pariatur culpa laborum molestias atque voluptatibus architecto, iste quis? Ut, veniam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus unde dicta nemo, voluptatem accusantium expedita harum neque quae pariatur! Minima commodi fugiat recusandae id voluptatum tempora atque a tempore vitae.</p></div>
-        <div class="col-md-8 offset-md-2"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quod in aperiam cumque molestias. Laudantium vel, laborum possimus ab facere perspiciatis at repellendus error, maxime quia distinctio ullam, libero doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae assumenda et nostrum aliquam ducimus? Totam cupiditate cumque non nulla enim, corrupti odit accusantium ratione rem laborum. Unde earum hic ex?</p></div>
+    <div class="mb-5">
+        <div class="col-lg-8 offset-md-2"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam placeat quae, nesciunt maiores aliquam, dolore iure assumenda ullam nisi pariatur culpa laborum molestias atque voluptatibus architecto, iste quis? Ut, veniam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus unde dicta nemo, voluptatem accusantium expedita harum neque quae pariatur! Minima commodi fugiat recusandae id voluptatum tempora atque a tempore vitae.</p></div>
+        <div class="col-lg-8 offset-md-2"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quod in aperiam cumque molestias. Laudantium vel, laborum possimus ab facere perspiciatis at repellendus error, maxime quia distinctio ullam, libero doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae assumenda et nostrum aliquam ducimus? Totam cupiditate cumque non nulla enim, corrupti odit accusantium ratione rem laborum. Unde earum hic ex?</p></div>
     </div>
 
     <div>
@@ -72,23 +72,32 @@
 </div>
 
 <!--Qual Sistema-->
-<div class="py-5">
-    <div class="container">
-        <h2 class="py-3 text-center">Qual Sistema Escolher?</h2>
+<div class="py-5 content container-fluid bg-gray">
+    <h2 class="py-3 text-center">Qual Sistema Escolher?</h2>
 
-        <div class="row">
-            <div class="col-lg-5 ms-auto"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam placeat quae, nesciunt maiores aliquam, dolore iure assumenda ullam nisi pariatur culpa laborum molestias atque voluptatibus architecto, iste quis? Ut, veniam!</p></div>
-            <div class="col-lg-5 me-auto"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quod in aperiam cumque molestias. Laudantium vel, laborum possimus ab facere perspiciatis at repellendus error, maxime quia distinctio ullam, libero doloremque.</p></div>
-        </div>
+    <div class="row">
+        <div class="col-lg-4 ms-auto"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam placeat quae, nesciunt maiores aliquam, dolore iure assumenda ullam nisi pariatur culpa laborum molestias atque voluptatibus architecto, iste quis? Ut, veniam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt unde et aperiam cum voluptas similique sapiente, possimus inventore, quas aspernatur molestias corporis neque quisquam, iure aliquam ut consectetur praesentium obcaecati!</p></div>
+        <div class="col-lg-4 me-auto"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quod in aperiam cumque molestias. Laudantium vel, laborum possimus ab facere perspiciatis at repellendus error, maxime quia distinctio ullam, libero doloremque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus dignissimos eveniet ipsa! Hic saepe itaque, aliquid cum sunt nihil quod in nisi voluptatibus temporibus, molestiae repellat numquam suscipit voluptates.</p></div>
+    </div>
 
-        <div class="text-center mt-4">
-            <img class="img-fluid rounded" src="/static/images/rpgs-genres.png" alt="Sistemas">
-        </div>
+    <div class="text-center mt-4">
+        <img class="img-fluid rounded" src="/static/images/rpgs-genres.png" alt="Sistemas">
+    </div>
+</div>
+
+<!-- Publicadoras -->
+<div class="row gx-4 gx-lg-5 align-items-center justify-content-center my-5 content container-fluid">
+    <div class="col-lg-4"><img class="img-fluid rounded mb-4 mb-lg-0" src="/static/images/rpg-books.png" alt="Livros" /></div>
+    <div class="col-lg-4">
+        <h2 class="font-weight-light">Publicadoras</h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, obcaecati atque voluptas et aliquid quia voluptates voluptatum maiores quae blanditiis distinctio ea iusto. Dignissimos nihil, hic porro iusto magnam ex? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, saepe. Ipsum, commodi numquam praesentium labore eaque voluptate magnam doloribus atque? Harum recusandae temporibus nulla itaque est iusto autem deserunt placeat!
+        </p>
     </div>
 </div>
 
 <!--DM e PC-->
-<div class="bg-gray py-5">
+<div class="pt-3 pb-5 bg-gray content container-fluid">
     <div class="container">
         <h2 class="py-3 text-center">Tipos de Jogador</h2>
         <div class="row gy-3 gy-md-4 gy-lg-0">
@@ -129,19 +138,21 @@
         </div>
     </div>
 </div>
+
 <!--Campanha-->
-<div>
-    <div class="py-5 container">
-        <h2 class="py-3 text-center">Começando uma Campanha</h2>
 
-        <div class="row">
-            <div class="col-lg-5 ms-auto"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam placeat quae, nesciunt maiores aliquam, dolore iure assumenda ullam nisi pariatur culpa laborum molestias atque voluptatibus architecto, iste quis? Ut, veniam!</p></div>
-            <div class="col-lg-5 me-auto"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quod in aperiam cumque molestias. Laudantium vel, laborum possimus ab facere perspiciatis at repellendus error, maxime quia distinctio ullam, libero doloremque.</p></div>
-        </div>
+<div class="py-5 content container-fluid">
+    <h2 class="py-3 text-center">Começando uma Campanha</h2>
 
-        <div class="text-center mt-4">
-            <img class="img-fluid rounded" src="/static/images/dm-shield.png" alt="DM">
-        </div>
+    <div class="row">
+        <div class="col-lg-4 ms-auto"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam placeat quae, nesciunt maiores aliquam, dolore iure assumenda ullam nisi pariatur culpa laborum molestias atque voluptatibus architecto, iste quis? Ut, veniam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt unde et aperiam cum voluptas similique sapiente, possimus inventore, quas aspernatur molestias corporis neque quisquam, iure aliquam ut consectetur praesentium obcaecati!</p></div>
+        <div class="col-lg-4 me-auto"><p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quod in aperiam cumque molestias. Laudantium vel, laborum possimus ab facere perspiciatis at repellendus error, maxime quia distinctio ullam, libero doloremque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus dignissimos eveniet ipsa! Hic saepe itaque, aliquid cum sunt nihil quod in nisi voluptatibus temporibus, molestiae repellat numquam suscipit voluptates.</p></div>
+    </div>
+
+    <div class="text-center mt-4">
+        <img class="img-fluid rounded" src="/static/images/dm-shield.png" alt="DM">
     </div>
 </div>
+
+
 {% endblock %}
