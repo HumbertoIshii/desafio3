@@ -8,19 +8,18 @@ Criar uma página da web responsiva, a partir do desafio 2, usando Bootstrap e F
 
 - Utilize o framework Bootstrap para criar a estrutura básica da página.
 - Aplique o recurso @media para criar um layout responsivo.
-- Use pelo menos 5 componentes do Bootstrap (por exemplo, navbar, carrossel, modal, etc.).
+- Use pelo menos 5 componentes do Bootstrap.
 - Implemente um menu de navegação que se adapte a diferentes tamanhos de tela.
 - Use Flexbox para organizar os elementos em seções da página, como cabeçalho, conteúdo e rodapé.
-- Adicione estilos personalizados para tornar a página única. Cadê os alunos criativos!!!
-- Certifique-se de que a página seja totalmente responsiva, funcionando bem em telas de
-- tamanhos variados, desde smartphones até desktops.
+- Adicione estilos personalizados para tornar a página única.
+- Certifique-se de que a página seja totalmente responsiva, funcionando bem em telas de tamanhos variados, desde smartphones até desktops.
 
 ## Para executar esse projeto.
 
 ### Clone esse repositório.
 
 ```
-$ git clone https://github.com/HumbertoIshii/Desafio1.git
+$ git clone https://github.com/HumbertoIshii/Desafio3.git
 ```
 
 ### Crie um ambiente virtual.
